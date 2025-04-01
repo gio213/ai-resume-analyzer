@@ -8,8 +8,8 @@ export default function Home() {
         cardClassName="w-96"
         contentClassName="flex flex-col items-center justify-center gap-4 "
         descriptionClassName="text-center"
-        footerClassName="text-center"
-        titleClassName="text-center"
+        footerClassName="text-center sr-only"
+        titleClassName="text-center sr-only"
         content={<InputComponent />}
         description="Upload your resume in PDF format"
         footer="Click the button to upload"
